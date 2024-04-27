@@ -5,7 +5,7 @@ async function getData() {
     //  intentionally slow down method
     await new Promise(resolve => setTimeout(resolve, 2000));
 
-    const fetchResult = await fetch('www.thecocktaildb.com/api/json/v1/1/search.php?f=a');
+    const fetchResult = await fetch('../../public/api/TheCocktailDB_A.json')
     const data = await fetchResult.json();
     return data;
 }
