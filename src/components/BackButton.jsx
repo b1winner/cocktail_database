@@ -6,7 +6,7 @@ const BackButton = () => {
     const router = useRouter();
 
     return (
-        <button onClick={router.back}>Click Here To Go Back</button>
+        <button onClick={router.back}>Click To Go Back</button>
     );
 }
 
