@@ -5,11 +5,9 @@ export const Header = () => {
         <header>
             <nav>
                 <div className="nav-wrapper">
-                    <Link href={'/'} className="brand-logo">Logo</Link>
+                    <Link href={'/'} className="brand-logo">Drink Finder</Link>
                     <ul id="nav-mobile" className="right hide-on-med-and-down">
-                        <li><Link href="/">Index</Link></li>
-                        <li><Link href="/users">Users Page</Link></li>
-                        <li><Link href="/posts">Posts Page</Link></li>
+                        <li><Link href="/">Home</Link></li>
                     </ul>
                 </div>
             </nav>
